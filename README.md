@@ -1,6 +1,6 @@
 1) O retorno NaN em JavaScript significa Not a Number e ocorre quando uma operação que deveria resultar em número falha, por exemplo ao tentar dividir 0/0 ou multiplicar uma string não numérica por um número.
 
-2) 2) O CSS pode ser adicionado de três formas: inline, diretamente na tag com o atributo style (ex.: <p style="color:red;">); interno, dentro da tag <style> no <head> (bom para páginas únicas); e externo, em um arquivo separado .css vinculado por <link> (melhor para projetos grandes, pois facilita a manutenção). A diferença principal está na prioridade e na organização: o inline tem maior prioridade, mas é mais difícil de manter, enquanto o externo é mais organizado e recomendado.
+2) O CSS pode ser adicionado de três formas: inline, diretamente na tag com o atributo style (ex.: <p style="color:red;">); interno, dentro da tag <style> no <head> (bom para páginas únicas); e externo, em um arquivo separado .css vinculado por <link> (melhor para projetos grandes, pois facilita a manutenção). A diferença principal está na prioridade e na organização: o inline tem maior prioridade, mas é mais difícil de manter, enquanto o externo é mais organizado e recomendado.
 
 3) A tag <div> é um elemento de bloco, usada para estruturar seções maiores da página, enquanto a <span> é inline, usada para destacar ou estilizar trechos pequenos dentro de um texto sem quebrar a linha. Exemplo: <div> para agrupar um cabeçalho com título e parágrafo; <span> para deixar apenas uma palavra colorida dentro de uma frase.
 
