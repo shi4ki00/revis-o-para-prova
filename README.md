@@ -32,6 +32,7 @@ Margem - Limpa uma área fora da borda. A margem é transparente
   background: darkblue;
   transform: scale(1.1);
 }
+
 16) Podemos usar const, var e let no código do JavaScript.O Var é o mais antigo, tem escopo de função ( vale dentro de toda a função) e permite redeclarar a variável no mesmo lugar, o que pode gerar problemas no código.O let é o mais moderno, tem escopo de bloco( só vale dentro das chave que ele foi criado e não pode ser redeclarado, mas o valor pode ser alterado.Já o const também tem escopo de bloco, mas não permite alterar o valor depois de definido.Porém em um objeto, podemos mudar o conteúdo interno, mas não trocar a variável interna.
 
 17) 
