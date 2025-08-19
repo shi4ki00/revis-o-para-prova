@@ -8,7 +8,7 @@
 
 5) As listas ordenadas ol apresentam os itens numerados, já as listas não ordenadas ul usam marcadores (bolinhas, quadrados etc.). Exemplo de lista ordenada: <ol><li>Primeiro</li><li>Segundo</li></ol>. Exemplo de lista não ordenada: <ul><li>Maçã</li><li>Banana</li></ul>.
 
-6) A propriedade display no CSS define como o elemento é exibido. O valor block faz o elemento ocupar toda a largura disponível e quebrar a linha (ex.: <div>); o valor inline faz o elemento ocupar apenas o espaço do conteúdo, sem quebra de linha (ex.: <span>); e o inline-block combina os dois: fica na mesma linha como inline, mas permite definir largura e altura como block.
+6) A propriedade display no CSS define como o elemento é exibido. O valor block faz o elemento ocupar toda a largura disponível e quebrar a linha (ex.: div); o valor inline faz o elemento ocupar apenas o espaço do conteúdo, sem quebra de linha (ex.: span); e o inline-block combina os dois: fica na mesma linha como inline, mas permite definir largura e altura como block.
 
 7) O box model CSS é essencialmente uma caixa que envolve cada elemento HTML. Ele consiste em: conteúdo, preenchimento, bordas e margens. A imagem abaixo ilustra o modelo de caixa. Explicação das diferentes partes (da parte mais interna para a parte mais externa) 
 Conteúdo - O conteúdo da caixa, onde aparecem o texto e as imagens
@@ -16,7 +16,7 @@ Padding - Limpa uma área ao redor do conteúdo. O preenchimento é transparente
 Borda - Uma borda que circunda o preenchimento e o conteúdo
 Margem - Limpa uma área fora da borda. A margem é transparente
 
-8) As tags semânticas do HTML5 têm a função de dar significado ao conteúdo, facilitando a compreensão da estrutura por navegadores, buscadores e leitores de tela. O <header> representa o cabeçalho da página ou de uma seção, geralmente com título e menu. O <section> define uma seção temática de conteúdo. O <article> representa um conteúdo independente, como uma notícia ou postagem. Já o <footer> é o rodapé da página ou de uma seção, usado para informações adicionais, como contatos ou direitos autorais.
+8) As tags semânticas do HTML5 têm a função de dar significado ao conteúdo, facilitando a compreensão da estrutura por navegadores, buscadores e leitores de tela. O header representa o cabeçalho da página ou de uma seção, geralmente com título e menu. O section define uma seção temática de conteúdo. Oarticle> representa um conteúdo independente, como uma notícia ou postagem. Já o footer é o rodapé da página ou de uma seção, usado para informações adicionais, como contatos ou direitos autorais.
 
 9) O atributo target="_blank" faz com que um link seja aberto em uma nova aba ou janela do navegador. No entanto, ele pode abrir brechas de segurança, como o tabnabbing, em que a aba aberta tenta manipular a página original. Por isso, é recomendável usar também rel="noopener noreferrer", que impede essa vulnerabilidade.
 
