@@ -1,12 +1,12 @@
 1) O retorno NaN em JavaScript significa Not a Number e ocorre quando uma operação que deveria resultar em número falha, por exemplo ao tentar dividir 0/0 ou multiplicar uma string não numérica por um número.
 
-2) O CSS pode ser adicionado de três formas: inline, diretamente na tag com o atributo style (ex.: <p style="color:red;">); interno, dentro da tag <style> no <head> (bom para páginas únicas); e externo, em um arquivo separado .css vinculado por <link> (melhor para projetos grandes, pois facilita a manutenção). A diferença principal está na prioridade e na organização: o inline tem maior prioridade, mas é mais difícil de manter, enquanto o externo é mais organizado e recomendado.
+2) O CSS pode ser adicionado de três formas: inline, diretamente na tag com o atributo style (ex.: <p style="color:red;">); interno, dentro da tag style no head (bom para páginas únicas); e externo, em um arquivo separado .css vinculado por link (melhor para projetos grandes, pois facilita a manutenção). A diferença principal está na prioridade e na organização: o inline tem maior prioridade, mas é mais difícil de manter, enquanto o externo é mais organizado e recomendado.
 
-3) A tag <div> é um elemento de bloco, usada para estruturar seções maiores da página, enquanto a <span> é inline, usada para destacar ou estilizar trechos pequenos dentro de um texto sem quebrar a linha. Exemplo: <div> para agrupar um cabeçalho com título e parágrafo; <span> para deixar apenas uma palavra colorida dentro de uma frase.
+3) A tag div é um elemento de bloco, usada para estruturar seções maiores da página, enquanto a <span> é inline, usada para destacar ou estilizar trechos pequenos dentro de um texto sem quebrar a linha. Exemplo: div para agrupar um cabeçalho com título e parágrafo; <span> para deixar apenas uma palavra colorida dentro de uma frase.
 
 4) A tag <head> serve para armazenar metadados do documento HTML, informações que não aparecem diretamente na página. Dentro dela podem estar elementos como <title> (título exibido na aba do navegador), <meta> (configurações de charset, autor ou descrição) e <link> (ligação com arquivos CSS).
 
-5) As listas ordenadas <ol> apresentam os itens numerados, já as listas não ordenadas <ul> usam marcadores (bolinhas, quadrados etc.). Exemplo de lista ordenada: <ol><li>Primeiro</li><li>Segundo</li></ol>. Exemplo de lista não ordenada: <ul><li>Maçã</li><li>Banana</li></ul>.
+5) As listas ordenadas ol apresentam os itens numerados, já as listas não ordenadas ul usam marcadores (bolinhas, quadrados etc.). Exemplo de lista ordenada: <ol><li>Primeiro</li><li>Segundo</li></ol>. Exemplo de lista não ordenada: <ul><li>Maçã</li><li>Banana</li></ul>.
 
 6) A propriedade display no CSS define como o elemento é exibido. O valor block faz o elemento ocupar toda a largura disponível e quebrar a linha (ex.: <div>); o valor inline faz o elemento ocupar apenas o espaço do conteúdo, sem quebra de linha (ex.: <span>); e o inline-block combina os dois: fica na mesma linha como inline, mas permite definir largura e altura como block.
 
