@@ -1,13 +1,14 @@
-let produto1 ={
+let p1 ={
     nome:  "Arroz",
-    preço: "20,00",
+    preço: "20",
     emEstoque: "True",
 }
 
-console.log("Nome do produto: ", produto1.nome)
-console.log("Valor do produto: ", produto1.preço)
+console.log("Nome do produto: ", p1.nome)
+console.log("Valor do produto: ", p1.preço)
 
-if(produto1.emEstoque == "True"){
+if(p1.emEstoque == "True"){
     console.log("Produto Disponível")
 }
+
    
